@@ -1,9 +1,10 @@
 package compony.stuff;
 public class Employee {
-    String name;
-    int age;
-    String designation;
-    Double salary;
+    private String name;
+    private int age;
+    private String designation;
+    private Double salary;
+
     public Employee(String name){
         this.name = name;
     }
@@ -25,5 +26,9 @@ public class Employee {
         System.out.println("年龄:" + age );
         System.out.println("职位:" + designation );
         System.out.println("薪水:" + salary);
+    }
+
+    public void mailCheck() {
+
     }
 }
